@@ -3,6 +3,10 @@ STBubbleTableViewCell
 
 STBubbleTableViewCell is a UITableViewCell subclass for easily displaying chat conversations.
 
+## Screenshot
+
+![screenshot](https://raw.githubusercontent.com/SkyTrix/STBubbleTableViewCell/master/screenshot.png)
+
 ## Features
 - Avatar support
 - 10 different colors
