@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82727A5317C8F16900AD496B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82727A5217C8F16900AD496B /* UIKit.framework */; };
+		82727A5517C8F16900AD496B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82727A5417C8F16900AD496B /* Foundation.framework */; };
+		82727A5717C8F16900AD496B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82727A5617C8F16900AD496B /* CoreGraphics.framework */; };
+		82727A5D17C8F16900AD496B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82727A5B17C8F16900AD496B /* InfoPlist.strings */; };
+		82727A5F17C8F16900AD496B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82727A5E17C8F16900AD496B /* main.m */; };
+		82727A6317C8F16900AD496B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82727A6217C8F16900AD496B /* AppDelegate.m */; };
+		82727A6517C8F16900AD496B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A6417C8F16900AD496B /* Default.png */; };
+		82727A6717C8F16900AD496B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A6617C8F16900AD496B /* Default@2x.png */; };
+		82727A6917C8F16900AD496B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A6817C8F16900AD496B /* Default-568h@2x.png */; };
+		82727A7217C8F1AC00AD496B /* STBubbleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82727A7117C8F1AC00AD496B /* STBubbleTableViewCell.m */; };
+		82727A7617C8F2C500AD496B /* jonnotie.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A7417C8F2C500AD496B /* jonnotie.png */; };
+		82727A7717C8F2C500AD496B /* SkyTrix.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A7517C8F2C500AD496B /* SkyTrix.png */; };
+		82727A8D17C8F2D100AD496B /* Bubble-0.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A7917C8F2D100AD496B /* Bubble-0.png */; };
+		82727A8E17C8F2D100AD496B /* Bubble-0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A7A17C8F2D100AD496B /* Bubble-0@2x.png */; };
+		82727A8F17C8F2D100AD496B /* Bubble-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A7B17C8F2D100AD496B /* Bubble-1.png */; };
+		82727A9017C8F2D100AD496B /* Bubble-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A7C17C8F2D100AD496B /* Bubble-1@2x.png */; };
+		82727A9117C8F2D100AD496B /* Bubble-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A7D17C8F2D100AD496B /* Bubble-2.png */; };
+		82727A9217C8F2D100AD496B /* Bubble-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A7E17C8F2D100AD496B /* Bubble-2@2x.png */; };
+		82727A9317C8F2D100AD496B /* Bubble-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A7F17C8F2D100AD496B /* Bubble-3.png */; };
+		82727A9417C8F2D100AD496B /* Bubble-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A8017C8F2D100AD496B /* Bubble-3@2x.png */; };
+		82727A9517C8F2D100AD496B /* Bubble-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A8117C8F2D100AD496B /* Bubble-4.png */; };
+		82727A9617C8F2D100AD496B /* Bubble-4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A8217C8F2D100AD496B /* Bubble-4@2x.png */; };
+		82727A9717C8F2D100AD496B /* Bubble-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A8317C8F2D100AD496B /* Bubble-5.png */; };
+		82727A9817C8F2D100AD496B /* Bubble-5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A8417C8F2D100AD496B /* Bubble-5@2x.png */; };
+		82727A9917C8F2D100AD496B /* Bubble-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A8517C8F2D100AD496B /* Bubble-6.png */; };
+		82727A9A17C8F2D100AD496B /* Bubble-6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A8617C8F2D100AD496B /* Bubble-6@2x.png */; };
+		82727A9B17C8F2D100AD496B /* Bubble-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A8717C8F2D100AD496B /* Bubble-7.png */; };
+		82727A9C17C8F2D100AD496B /* Bubble-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A8817C8F2D100AD496B /* Bubble-7@2x.png */; };
+		82727A9D17C8F2D100AD496B /* Bubble-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A8917C8F2D100AD496B /* Bubble-8.png */; };
+		82727A9E17C8F2D100AD496B /* Bubble-8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A8A17C8F2D100AD496B /* Bubble-8@2x.png */; };
+		82727A9F17C8F2D100AD496B /* Bubble-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A8B17C8F2D100AD496B /* Bubble-9.png */; };
+		82727AA017C8F2D100AD496B /* Bubble-9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82727A8C17C8F2D100AD496B /* Bubble-9@2x.png */; };
+		82727AA917C8F3F200AD496B /* STBubbleTableViewCellDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82727AA817C8F3F100AD496B /* STBubbleTableViewCellDemoViewController.m */; };
+		82727AAC17C8F40B00AD496B /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 82727AAB17C8F40B00AD496B /* Message.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82727A4F17C8F16900AD496B /* STBubbleTableViewCellDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STBubbleTableViewCellDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82727A5217C8F16900AD496B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82727A5417C8F16900AD496B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82727A5617C8F16900AD496B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82727A5A17C8F16900AD496B /* STBubbleTableViewCellDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "STBubbleTableViewCellDemo-Info.plist"; sourceTree = "<group>"; };
+		82727A5C17C8F16900AD496B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82727A5E17C8F16900AD496B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82727A6017C8F16900AD496B /* STBubbleTableViewCellDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "STBubbleTableViewCellDemo-Prefix.pch"; sourceTree = "<group>"; };
+		82727A6117C8F16900AD496B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82727A6217C8F16900AD496B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82727A6417C8F16900AD496B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		82727A6617C8F16900AD496B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		82727A6817C8F16900AD496B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		82727A7017C8F1AC00AD496B /* STBubbleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBubbleTableViewCell.h; sourceTree = "<group>"; };
+		82727A7117C8F1AC00AD496B /* STBubbleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBubbleTableViewCell.m; sourceTree = "<group>"; };
+		82727A7417C8F2C500AD496B /* jonnotie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jonnotie.png; sourceTree = "<group>"; };
+		82727A7517C8F2C500AD496B /* SkyTrix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SkyTrix.png; sourceTree = "<group>"; };
+		82727A7917C8F2D100AD496B /* Bubble-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-0.png"; sourceTree = "<group>"; };
+		82727A7A17C8F2D100AD496B /* Bubble-0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-0@2x.png"; sourceTree = "<group>"; };
+		82727A7B17C8F2D100AD496B /* Bubble-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-1.png"; sourceTree = "<group>"; };
+		82727A7C17C8F2D100AD496B /* Bubble-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-1@2x.png"; sourceTree = "<group>"; };
+		82727A7D17C8F2D100AD496B /* Bubble-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-2.png"; sourceTree = "<group>"; };
+		82727A7E17C8F2D100AD496B /* Bubble-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-2@2x.png"; sourceTree = "<group>"; };
+		82727A7F17C8F2D100AD496B /* Bubble-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-3.png"; sourceTree = "<group>"; };
+		82727A8017C8F2D100AD496B /* Bubble-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-3@2x.png"; sourceTree = "<group>"; };
+		82727A8117C8F2D100AD496B /* Bubble-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-4.png"; sourceTree = "<group>"; };
+		82727A8217C8F2D100AD496B /* Bubble-4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-4@2x.png"; sourceTree = "<group>"; };
+		82727A8317C8F2D100AD496B /* Bubble-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-5.png"; sourceTree = "<group>"; };
+		82727A8417C8F2D100AD496B /* Bubble-5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-5@2x.png"; sourceTree = "<group>"; };
+		82727A8517C8F2D100AD496B /* Bubble-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-6.png"; sourceTree = "<group>"; };
+		82727A8617C8F2D100AD496B /* Bubble-6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-6@2x.png"; sourceTree = "<group>"; };
+		82727A8717C8F2D100AD496B /* Bubble-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-7.png"; sourceTree = "<group>"; };
+		82727A8817C8F2D100AD496B /* Bubble-7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-7@2x.png"; sourceTree = "<group>"; };
+		82727A8917C8F2D100AD496B /* Bubble-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-8.png"; sourceTree = "<group>"; };
+		82727A8A17C8F2D100AD496B /* Bubble-8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-8@2x.png"; sourceTree = "<group>"; };
+		82727A8B17C8F2D100AD496B /* Bubble-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-9.png"; sourceTree = "<group>"; };
+		82727A8C17C8F2D100AD496B /* Bubble-9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bubble-9@2x.png"; sourceTree = "<group>"; };
+		82727AA717C8F3F100AD496B /* STBubbleTableViewCellDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STBubbleTableViewCellDemoViewController.h; path = STBubbleTableViewCellDemo/STBubbleTableViewCellDemoViewController.h; sourceTree = SOURCE_ROOT; };
+		82727AA817C8F3F100AD496B /* STBubbleTableViewCellDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STBubbleTableViewCellDemoViewController.m; path = STBubbleTableViewCellDemo/STBubbleTableViewCellDemoViewController.m; sourceTree = SOURCE_ROOT; };
+		82727AAA17C8F40B00AD496B /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		82727AAB17C8F40B00AD496B /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82727A4C17C8F16900AD496B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82727A5317C8F16900AD496B /* UIKit.framework in Frameworks */,
+				82727A5517C8F16900AD496B /* Foundation.framework in Frameworks */,
+				82727A5717C8F16900AD496B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82727A4617C8F16900AD496B = {
+			isa = PBXGroup;
+			children = (
+				82727A5817C8F16900AD496B /* STBubbleTableViewCellDemo */,
+				82727A5117C8F16900AD496B /* Frameworks */,
+				82727A5017C8F16900AD496B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82727A5017C8F16900AD496B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82727A4F17C8F16900AD496B /* STBubbleTableViewCellDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82727A5117C8F16900AD496B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82727A5217C8F16900AD496B /* UIKit.framework */,
+				82727A5417C8F16900AD496B /* Foundation.framework */,
+				82727A5617C8F16900AD496B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82727A5817C8F16900AD496B /* STBubbleTableViewCellDemo */ = {
+			isa = PBXGroup;
+			children = (
+				82727A6F17C8F1AC00AD496B /* STBubbleTableViewCell */,
+				82727AA717C8F3F100AD496B /* STBubbleTableViewCellDemoViewController.h */,
+				82727AA817C8F3F100AD496B /* STBubbleTableViewCellDemoViewController.m */,
+				82727AAA17C8F40B00AD496B /* Message.h */,
+				82727AAB17C8F40B00AD496B /* Message.m */,
+				82727A6117C8F16900AD496B /* AppDelegate.h */,
+				82727A6217C8F16900AD496B /* AppDelegate.m */,
+				82727A7317C8F2A000AD496B /* Resources */,
+				82727A5917C8F16900AD496B /* Supporting Files */,
+			);
+			path = STBubbleTableViewCellDemo;
+			sourceTree = "<group>";
+		};
+		82727A5917C8F16900AD496B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82727A5A17C8F16900AD496B /* STBubbleTableViewCellDemo-Info.plist */,
+				82727A5B17C8F16900AD496B /* InfoPlist.strings */,
+				82727A5E17C8F16900AD496B /* main.m */,
+				82727A6017C8F16900AD496B /* STBubbleTableViewCellDemo-Prefix.pch */,
+				82727A6417C8F16900AD496B /* Default.png */,
+				82727A6617C8F16900AD496B /* Default@2x.png */,
+				82727A6817C8F16900AD496B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82727A6F17C8F1AC00AD496B /* STBubbleTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				82727A7017C8F1AC00AD496B /* STBubbleTableViewCell.h */,
+				82727A7117C8F1AC00AD496B /* STBubbleTableViewCell.m */,
+			);
+			path = STBubbleTableViewCell;
+			sourceTree = "<group>";
+		};
+		82727A7317C8F2A000AD496B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				82727A7817C8F2D100AD496B /* Images */,
+				82727A7417C8F2C500AD496B /* jonnotie.png */,
+				82727A7517C8F2C500AD496B /* SkyTrix.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		82727A7817C8F2D100AD496B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				82727A7917C8F2D100AD496B /* Bubble-0.png */,
+				82727A7A17C8F2D100AD496B /* Bubble-0@2x.png */,
+				82727A7B17C8F2D100AD496B /* Bubble-1.png */,
+				82727A7C17C8F2D100AD496B /* Bubble-1@2x.png */,
+				82727A7D17C8F2D100AD496B /* Bubble-2.png */,
+				82727A7E17C8F2D100AD496B /* Bubble-2@2x.png */,
+				82727A7F17C8F2D100AD496B /* Bubble-3.png */,
+				82727A8017C8F2D100AD496B /* Bubble-3@2x.png */,
+				82727A8117C8F2D100AD496B /* Bubble-4.png */,
+				82727A8217C8F2D100AD496B /* Bubble-4@2x.png */,
+				82727A8317C8F2D100AD496B /* Bubble-5.png */,
+				82727A8417C8F2D100AD496B /* Bubble-5@2x.png */,
+				82727A8517C8F2D100AD496B /* Bubble-6.png */,
+				82727A8617C8F2D100AD496B /* Bubble-6@2x.png */,
+				82727A8717C8F2D100AD496B /* Bubble-7.png */,
+				82727A8817C8F2D100AD496B /* Bubble-7@2x.png */,
+				82727A8917C8F2D100AD496B /* Bubble-8.png */,
+				82727A8A17C8F2D100AD496B /* Bubble-8@2x.png */,
+				82727A8B17C8F2D100AD496B /* Bubble-9.png */,
+				82727A8C17C8F2D100AD496B /* Bubble-9@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82727A4E17C8F16900AD496B /* STBubbleTableViewCellDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82727A6C17C8F16900AD496B /* Build configuration list for PBXNativeTarget "STBubbleTableViewCellDemo" */;
+			buildPhases = (
+				82727A4B17C8F16900AD496B /* Sources */,
+				82727A4C17C8F16900AD496B /* Frameworks */,
+				82727A4D17C8F16900AD496B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STBubbleTableViewCellDemo;
+			productName = STBubbleTableViewCellDemo;
+			productReference = 82727A4F17C8F16900AD496B /* STBubbleTableViewCellDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82727A4717C8F16900AD496B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = FreshCreations;
+			};
+			buildConfigurationList = 82727A4A17C8F16900AD496B /* Build configuration list for PBXProject "STBubbleTableViewCellDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82727A4617C8F16900AD496B;
+			productRefGroup = 82727A5017C8F16900AD496B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82727A4E17C8F16900AD496B /* STBubbleTableViewCellDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82727A4D17C8F16900AD496B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82727A5D17C8F16900AD496B /* InfoPlist.strings in Resources */,
+				82727A6517C8F16900AD496B /* Default.png in Resources */,
+				82727A6717C8F16900AD496B /* Default@2x.png in Resources */,
+				82727A6917C8F16900AD496B /* Default-568h@2x.png in Resources */,
+				82727A7617C8F2C500AD496B /* jonnotie.png in Resources */,
+				82727A7717C8F2C500AD496B /* SkyTrix.png in Resources */,
+				82727A8D17C8F2D100AD496B /* Bubble-0.png in Resources */,
+				82727A8E17C8F2D100AD496B /* Bubble-0@2x.png in Resources */,
+				82727A8F17C8F2D100AD496B /* Bubble-1.png in Resources */,
+				82727A9017C8F2D100AD496B /* Bubble-1@2x.png in Resources */,
+				82727A9117C8F2D100AD496B /* Bubble-2.png in Resources */,
+				82727A9217C8F2D100AD496B /* Bubble-2@2x.png in Resources */,
+				82727A9317C8F2D100AD496B /* Bubble-3.png in Resources */,
+				82727A9417C8F2D100AD496B /* Bubble-3@2x.png in Resources */,
+				82727A9517C8F2D100AD496B /* Bubble-4.png in Resources */,
+				82727A9617C8F2D100AD496B /* Bubble-4@2x.png in Resources */,
+				82727A9717C8F2D100AD496B /* Bubble-5.png in Resources */,
+				82727A9817C8F2D100AD496B /* Bubble-5@2x.png in Resources */,
+				82727A9917C8F2D100AD496B /* Bubble-6.png in Resources */,
+				82727A9A17C8F2D100AD496B /* Bubble-6@2x.png in Resources */,
+				82727A9B17C8F2D100AD496B /* Bubble-7.png in Resources */,
+				82727A9C17C8F2D100AD496B /* Bubble-7@2x.png in Resources */,
+				82727A9D17C8F2D100AD496B /* Bubble-8.png in Resources */,
+				82727A9E17C8F2D100AD496B /* Bubble-8@2x.png in Resources */,
+				82727A9F17C8F2D100AD496B /* Bubble-9.png in Resources */,
+				82727AA017C8F2D100AD496B /* Bubble-9@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82727A4B17C8F16900AD496B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82727A5F17C8F16900AD496B /* main.m in Sources */,
+				82727A6317C8F16900AD496B /* AppDelegate.m in Sources */,
+				82727A7217C8F1AC00AD496B /* STBubbleTableViewCell.m in Sources */,
+				82727AA917C8F3F200AD496B /* STBubbleTableViewCellDemoViewController.m in Sources */,
+				82727AAC17C8F40B00AD496B /* Message.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82727A5B17C8F16900AD496B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82727A5C17C8F16900AD496B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82727A6A17C8F16900AD496B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82727A6B17C8F16900AD496B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82727A6D17C8F16900AD496B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STBubbleTableViewCellDemo/STBubbleTableViewCellDemo-Prefix.pch";
+				INFOPLIST_FILE = "STBubbleTableViewCellDemo/STBubbleTableViewCellDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82727A6E17C8F16900AD496B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "STBubbleTableViewCellDemo/STBubbleTableViewCellDemo-Prefix.pch";
+				INFOPLIST_FILE = "STBubbleTableViewCellDemo/STBubbleTableViewCellDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82727A4A17C8F16900AD496B /* Build configuration list for PBXProject "STBubbleTableViewCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82727A6A17C8F16900AD496B /* Debug */,
+				82727A6B17C8F16900AD496B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82727A6C17C8F16900AD496B /* Build configuration list for PBXNativeTarget "STBubbleTableViewCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82727A6D17C8F16900AD496B /* Debug */,
+				82727A6E17C8F16900AD496B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82727A4717C8F16900AD496B /* Project object */;
+}
