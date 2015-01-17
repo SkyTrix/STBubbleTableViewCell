@@ -115,7 +115,7 @@ const CGFloat STBubbleImageSize = 50.0f;
 
 - (void)setImageForBubbleColor:(BubbleColor)color
 {
-	self.bubbleView.image = [[UIImage imageNamed:[NSString stringWithFormat:@"Bubble-%i.png", color]] resizableImageWithCapInsets:UIEdgeInsetsMake(12.0f, 15.0f, 16.0f, 18.0f)];
+	self.bubbleView.image = [[UIImage imageNamed:[NSString stringWithFormat:@"Bubble-%lu.png", color]] resizableImageWithCapInsets:UIEdgeInsetsMake(12.0f, 15.0f, 16.0f, 18.0f)];
 }
 
 - (void)layoutSubviews
