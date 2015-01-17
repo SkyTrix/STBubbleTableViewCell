@@ -64,11 +64,17 @@ const CGFloat STBubbleImageSize = 50.0f;
 	CGSize size;
 	if(self.imageView.image)
     {
-		size = [self.textLabel.text sizeWithFont:self.textLabel.font constrainedToSize:CGSizeMake(self.frame.size.width - minInset - STBubbleWidthOffset - STBubbleImageSize - 8.0f, CGFLOAT_MAX) lineBreakMode:NSLineBreakByWordWrapping];
+        size = [self.textLabel.text boundingRectWithSize:CGSizeMake(self.frame.size.width - minInset - STBubbleWidthOffset - STBubbleImageSize - 8.0f, CGFLOAT_MAX)
+                                                 options:NSStringDrawingUsesLineFragmentOrigin
+                                              attributes:@{NSFontAttributeName:self.textLabel.font}
+                                                 context:nil].size;
     }
 	else
     {
-		size = [self.textLabel.text sizeWithFont:self.textLabel.font constrainedToSize:CGSizeMake(self.frame.size.width - minInset - STBubbleWidthOffset, CGFLOAT_MAX) lineBreakMode:NSLineBreakByWordWrapping];
+        size = [self.textLabel.text boundingRectWithSize:CGSizeMake(self.frame.size.width - minInset - STBubbleWidthOffset, CGFLOAT_MAX)
+                                                 options:NSStringDrawingUsesLineFragmentOrigin
+                                              attributes:@{NSFontAttributeName:self.textLabel.font}
+                                                 context:nil].size;
     }
 	
 	// You can always play with these values if you need to
@@ -115,7 +121,7 @@ const CGFloat STBubbleImageSize = 50.0f;
 
 - (void)setImageForBubbleColor:(BubbleColor)color
 {
-	self.bubbleView.image = [[UIImage imageNamed:[NSString stringWithFormat:@"Bubble-%lu.png", color]] resizableImageWithCapInsets:UIEdgeInsetsMake(12.0f, 15.0f, 16.0f, 18.0f)];
+	self.bubbleView.image = [[UIImage imageNamed:[NSString stringWithFormat:@"Bubble-%lu.png", (long)color]] resizableImageWithCapInsets:UIEdgeInsetsMake(12.0f, 15.0f, 16.0f, 18.0f)];
 }
 
 - (void)layoutSubviews
